@@ -123,21 +123,6 @@
                   "layout": [
                     {
                       "alignment": "start",
-                      "widgetId": "nhjxclp44s",
-                      "widgetType": "SECTION_WIDGET"
-                    }
-                  ],
-                  "layoutId": "yigyskfsh2",
-                  "layoutType": "WIDGET_ROW",
-                  "maxChildLimit": 1
-                },
-                {
-                  "insertChild": true,
-                  "isDropTarget": false,
-                  "isPermanent": false,
-                  "layout": [
-                    {
-                      "alignment": "start",
                       "widgetId": "q8x0de1q23",
                       "widgetType": "SECTION_WIDGET"
                     }
@@ -173,21 +158,6 @@
                     }
                   ],
                   "layoutId": "usspi5gtpg",
-                  "layoutType": "WIDGET_ROW",
-                  "maxChildLimit": 1
-                },
-                {
-                  "insertChild": true,
-                  "isDropTarget": false,
-                  "isPermanent": false,
-                  "layout": [
-                    {
-                      "alignment": "start",
-                      "widgetId": "pvyid74ev5",
-                      "widgetType": "SECTION_WIDGET"
-                    }
-                  ],
-                  "layoutId": "xomz98gl8n",
                   "layoutType": "WIDGET_ROW",
                   "maxChildLimit": 1
                 },
@@ -390,20 +360,13 @@
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
-              "id": "single widget in a zone_Select_public_users1",
-              "name": "Select_public_users1",
+              "id": "single widget in a zone_Query1",
+              "name": "Query1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'id'",
-                "Table1.pageSize",
-                "Table1.pageOffset"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
