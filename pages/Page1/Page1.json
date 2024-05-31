@@ -1,0 +1,127 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 380,
+          "containerStyle": "none",
+          "snapRows": 53,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 550,
+          "layout": [
+            {
+              "layoutId": "2zn7qf5vxp",
+              "layoutType": "ALIGNED_LAYOUT_COLUMN",
+              "layout": [
+                {
+                  "insertChild": true,
+                  "isDropTarget": false,
+                  "isPermanent": false,
+                  "layout": [
+                    {
+                      "alignment": "start",
+                      "widgetId": "ya85vrmvh9",
+                      "widgetType": "SECTION_WIDGET"
+                    }
+                  ],
+                  "layoutId": "ggnoz2ajxh",
+                  "layoutType": "WIDGET_ROW",
+                  "maxChildLimit": 1
+                },
+                {
+                  "insertChild": true,
+                  "isDropTarget": false,
+                  "isPermanent": false,
+                  "layout": [
+                    {
+                      "alignment": "start",
+                      "widgetId": "a0trstk1yx",
+                      "widgetType": "SECTION_WIDGET"
+                    }
+                  ],
+                  "layoutId": "l7hg5iayvj",
+                  "layoutType": "WIDGET_ROW",
+                  "maxChildLimit": 1
+                },
+                {
+                  "insertChild": true,
+                  "isDropTarget": false,
+                  "isPermanent": false,
+                  "layout": [
+                    {
+                      "alignment": "start",
+                      "widgetId": "slm43xwsr1",
+                      "widgetType": "SECTION_WIDGET"
+                    }
+                  ],
+                  "layoutId": "vgwg1ktnuv",
+                  "layoutType": "WIDGET_ROW",
+                  "maxChildLimit": 1
+                },
+                {
+                  "insertChild": true,
+                  "isDropTarget": false,
+                  "isPermanent": false,
+                  "layout": [
+                    {
+                      "alignment": "start",
+                      "widgetId": "94085try5i",
+                      "widgetType": "SECTION_WIDGET"
+                    }
+                  ],
+                  "layoutId": "px3fd39odk",
+                  "layoutType": "WIDGET_ROW",
+                  "maxChildLimit": 1
+                }
+              ],
+              "layoutStyle": {
+                "border": "none",
+                "height": "100%",
+                "padding": "spacing-4",
+                "gap": "spacing-4"
+              },
+              "isDropTarget": true,
+              "isPermanent": true,
+              "childTemplate": {
+                "insertChild": true,
+                "isDropTarget": false,
+                "isPermanent": false,
+                "layout": [],
+                "layoutId": "",
+                "layoutType": "WIDGET_ROW",
+                "maxChildLimit": 1
+              }
+            }
+          ],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "663cb13d9ac8920a5c72ea2a_1081e96a-7c89-40a1-8bf5-ccd4967b7505"
+}

@@ -1,0 +1,69 @@
+{
+    "needsErrorInfo": false,
+    "isCompact": false,
+    "mobileBottomRow": 10,
+    "widgetName": "MenuButton1Copy",
+    "displayName": "Menu Button",
+    "iconSVG": "/static/media/icon.5e66a9029af45161f7a3fbfb4262e5ee.svg",
+    "topRow": 0,
+    "bottomRow": 10,
+    "parentRowSpace": 10,
+    "type": "WDS_MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "triggerButtonVariant": "filled",
+    "mobileRightColumn": 64,
+    "animateLoading": true,
+    "parentColumnSpace": 1,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [],
+    "triggerButtonColor": "accent",
+    "isDisabled": false,
+    "key": "5om3902253",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "thumbnailSVG": "/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
+    "widgetId": "w5shs8czdp",
+    "onCanvasUI": {
+        "focusBGCSSVar": "--ads-widget-focus",
+        "disableParentSelection": false,
+        "focusColorCSSVar": "--ads-widget-selection",
+        "selectionBGCSSVar": "--ads-widget-selection",
+        "selectionColorCSSVar": "--ads-widget-focus"
+    },
+    "menuItems": {
+        "menuItem1": {
+            "widgetId": "",
+            "index": 0,
+            "label": "Bake",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem3": {
+            "widgetId": "",
+            "index": 2,
+            "label": "Boil",
+            "id": "menuItem3",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem2": {
+            "widgetId": "",
+            "index": 1,
+            "label": "Fry",
+            "id": "menuItem2",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "isVisible": true,
+    "label": "Open The Menu\u2026",
+    "version": 1,
+    "parentId": "sb3ceppoha",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 0,
+    "mobileLeftColumn": 0,
+    "menuItemsSource": "static"
+}

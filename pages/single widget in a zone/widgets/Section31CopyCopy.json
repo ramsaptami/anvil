@@ -1,0 +1,74 @@
+{
+    "needsErrorInfo": false,
+    "boxShadow": "NONE",
+    "mobileBottomRow": 10,
+    "widgetName": "Section31CopyCopy",
+    "isCanvas": true,
+    "dynamicPropertyPathList": [{"key": "elevatedBackground"}],
+    "displayName": "Section",
+    "iconSVG": "/static/media/icon.afdb05da7c51c242808ef4164226f422.svg",
+    "searchTags": [
+        "div",
+        "parent",
+        "group"
+    ],
+    "topRow": 0,
+    "bottomRow": 10,
+    "parentRowSpace": 10,
+    "type": "SECTION_WIDGET",
+    "hideCard": true,
+    "mobileRightColumn": 64,
+    "parentColumnSpace": 1,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [{"key": "elevatedBackground"}],
+    "elevatedBackground": "{{appsmith.store.section}}",
+    "key": "9bmbjy0g7o",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "detachFromLayout": false,
+    "thumbnailSVG": "/static/media/thumbnail.9fcf04d4e2afaf2a95869377f96a9660.svg",
+    "widgetId": "xe7k66r82j",
+    "onCanvasUI": {
+        "focusBGCSSVar": "--ads-section-focus",
+        "disableParentSelection": true,
+        "focusColorCSSVar": "--ads-section-selection",
+        "selectionBGCSSVar": "--ads-section-selection",
+        "selectionColorCSSVar": "--ads-section-focus"
+    },
+    "zoneCount": 2,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "07jn9xtbn0",
+    "tags": ["Layout"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 0,
+    "layout": [{
+        "layout": [
+            {
+                "widgetId": "x6bs8wk8ir",
+                "alignment": "start",
+                "widgetType": "ZONE_WIDGET"
+            },
+            {
+                "widgetId": "t0928at9an",
+                "alignment": "start",
+                "widgetType": "ZONE_WIDGET"
+            }
+        ],
+        "isPermanent": true,
+        "maxChildLimit": 4,
+        "isContainer": true,
+        "layoutType": "SECTION",
+        "layoutStyle": {"border": "none"},
+        "layoutId": "dz2hzla7h1",
+        "isDropTarget": true
+    }],
+    "responsiveBehavior": "fill",
+    "mobileLeftColumn": 0,
+    "spaceDistributed": {
+        "t0928at9an": 6,
+        "x6bs8wk8ir": 6
+    }
+}

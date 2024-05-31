@@ -1,0 +1,75 @@
+{
+    "needsErrorInfo": false,
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "mobileBottomRow": 10,
+    "widgetName": "Zone14",
+    "flexGrow": 12,
+    "isCanvas": true,
+    "displayName": "Zone",
+    "iconSVG": "/static/media/icon.b4f5f9eb27fc2bb537b53187836aea6c.svg",
+    "searchTags": [
+        "div",
+        "parent",
+        "group"
+    ],
+    "topRow": 0,
+    "bottomRow": 10,
+    "parentRowSpace": 10,
+    "type": "ZONE_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 64,
+    "parentColumnSpace": 1,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"}
+    ],
+    "elevatedBackground": true,
+    "flexVerticalAlignment": "stretch",
+    "key": "8g3htehmom",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "detachFromLayout": false,
+    "thumbnailSVG": "/static/media/thumbnail.652c8d71e463682539413758139620f1.svg",
+    "widgetId": "vflm4tvf11",
+    "onCanvasUI": {
+        "focusBGCSSVar": "--ads-zone-focus",
+        "disableParentSelection": false,
+        "focusColorCSSVar": "--ads-zone-selection",
+        "selectionBGCSSVar": "--ads-zone-selection",
+        "selectionColorCSSVar": "--ads-zone-focus"
+    },
+    "isVisible": true,
+    "version": 1,
+    "parentId": "q8x0de1q23",
+    "tags": ["Layout"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 0,
+    "layout": [{
+        "layout": [{
+            "layout": [{
+                "widgetId": "078d96wexa",
+                "alignment": "start",
+                "widgetType": "WDS_PHONE_INPUT_WIDGET"
+            }],
+            "allowedWidgetTypes": ["SMALL_WIDGETS"],
+            "maxChildLimit": 0,
+            "insertChild": true,
+            "layoutType": "ALIGNED_WIDGET_ROW",
+            "layoutId": "daq7ilnsow"
+        }],
+        "isPermanent": true,
+        "isContainer": true,
+        "layoutType": "ZONE",
+        "layoutStyle": {
+            "border": "none",
+            "height": "100%"
+        },
+        "layoutId": "uw3hea107n",
+        "isDropTarget": true
+    }],
+    "responsiveBehavior": "fill",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 0
+}

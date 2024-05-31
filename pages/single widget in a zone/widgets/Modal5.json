@@ -1,0 +1,316 @@
+{
+    "needsErrorInfo": false,
+    "mobileBottomRow": 10,
+    "widgetName": "Modal5",
+    "displayName": "Modal",
+    "searchTags": [
+        "dialog",
+        "popup",
+        "notification"
+    ],
+    "topRow": 0,
+    "bottomRow": 10,
+    "parentRowSpace": 10,
+    "type": "WDS_MODAL_WIDGET",
+    "title": "Modal Title",
+    "showFooter": true,
+    "hideCard": false,
+    "mobileRightColumn": 64,
+    "parentColumnSpace": 1,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [],
+    "showSubmitButton": true,
+    "submitButtonText": "Save Changes",
+    "key": "webzbhhpct",
+    "cancelButtonText": "Cancel",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "detachFromLayout": true,
+    "showHeader": true,
+    "widgetId": "66tj5qsmtv",
+    "onCanvasUI": {
+        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+        "disableParentSelection": true,
+        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+    },
+    "isVisible": false,
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Layout"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 0,
+    "layout": [{
+        "layout": [
+            {
+                "layout": [{
+                    "widgetId": "h88emm3v0m",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "sriy8mgzmz",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "upbm3xoid4",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "intkpb52za",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "53xdo4nxn8",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "y5v355wqu5",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "ykafdjtbaw",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "snj7h52l8x",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "w050jn1f3b",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "sn8hy14fxf",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "zjvf3apcup",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "btur1cp8ia",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "c2tjxhkcog",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "ol1nx286qk",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "dlliwfry1q",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "01igfl5yp0",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "vprgopswb2",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "phf3n2guvl",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "91i4g2l82q",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "9qdwe4ac1r",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "spa4138z5i",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "pgn12f5uyn",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "ih4qunj515",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "46nsokdzcu",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "d98jef4q2s",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "u38d8f5wwf",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "yrmo3xe8mq",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "wr2671faj0",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "jknqfgn6g6",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "zu4pfpz0jp",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "addhhi5kc7",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "lwqxf6p5d5",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "bdog3bgu5u",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "oe0d2agzzb",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "h0s0fl9t6d",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "76vwsnvmyj",
+                "isDropTarget": false
+            },
+            {
+                "layout": [{
+                    "widgetId": "fwfj9mao59",
+                    "alignment": "start",
+                    "widgetType": "SECTION_WIDGET"
+                }],
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
+                "layoutType": "WIDGET_ROW",
+                "layoutId": "ew3jorh3q8",
+                "isDropTarget": false
+            }
+        ],
+        "isPermanent": true,
+        "childTemplate": {
+            "layout": [],
+            "isPermanent": false,
+            "maxChildLimit": 1,
+            "insertChild": true,
+            "layoutType": "WIDGET_ROW",
+            "layoutId": "",
+            "isDropTarget": false
+        },
+        "layoutType": "ALIGNED_LAYOUT_COLUMN",
+        "layoutStyle": {
+            "border": "none",
+            "minHeight": "sizing-16",
+            "height": "100%"
+        },
+        "layoutId": "el7yd7ede4",
+        "isDropTarget": true
+    }],
+    "size": "medium",
+    "mobileLeftColumn": 0
+}
