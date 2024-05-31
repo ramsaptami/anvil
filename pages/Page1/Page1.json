@@ -23,87 +23,87 @@
           "minHeight": 550,
           "layout": [
             {
-              "layoutId": "2zn7qf5vxp",
-              "layoutType": "ALIGNED_LAYOUT_COLUMN",
               "layout": [
                 {
-                  "insertChild": true,
-                  "isDropTarget": false,
-                  "isPermanent": false,
                   "layout": [
                     {
-                      "alignment": "start",
                       "widgetId": "ya85vrmvh9",
+                      "alignment": "start",
                       "widgetType": "SECTION_WIDGET"
                     }
                   ],
+                  "isPermanent": false,
+                  "maxChildLimit": 1,
+                  "insertChild": true,
+                  "layoutType": "WIDGET_ROW",
                   "layoutId": "ggnoz2ajxh",
-                  "layoutType": "WIDGET_ROW",
-                  "maxChildLimit": 1
+                  "isDropTarget": false
                 },
                 {
-                  "insertChild": true,
-                  "isDropTarget": false,
-                  "isPermanent": false,
                   "layout": [
                     {
-                      "alignment": "start",
                       "widgetId": "a0trstk1yx",
+                      "alignment": "start",
                       "widgetType": "SECTION_WIDGET"
                     }
                   ],
+                  "isPermanent": false,
+                  "maxChildLimit": 1,
+                  "insertChild": true,
+                  "layoutType": "WIDGET_ROW",
                   "layoutId": "l7hg5iayvj",
-                  "layoutType": "WIDGET_ROW",
-                  "maxChildLimit": 1
+                  "isDropTarget": false
                 },
                 {
-                  "insertChild": true,
-                  "isDropTarget": false,
-                  "isPermanent": false,
                   "layout": [
                     {
-                      "alignment": "start",
                       "widgetId": "slm43xwsr1",
+                      "alignment": "start",
                       "widgetType": "SECTION_WIDGET"
                     }
                   ],
-                  "layoutId": "vgwg1ktnuv",
+                  "isPermanent": false,
+                  "maxChildLimit": 1,
+                  "insertChild": true,
                   "layoutType": "WIDGET_ROW",
-                  "maxChildLimit": 1
+                  "layoutId": "vgwg1ktnuv",
+                  "isDropTarget": false
                 },
                 {
-                  "insertChild": true,
-                  "isDropTarget": false,
-                  "isPermanent": false,
                   "layout": [
                     {
-                      "alignment": "start",
                       "widgetId": "94085try5i",
+                      "alignment": "start",
                       "widgetType": "SECTION_WIDGET"
                     }
                   ],
-                  "layoutId": "px3fd39odk",
+                  "isPermanent": false,
+                  "maxChildLimit": 1,
+                  "insertChild": true,
                   "layoutType": "WIDGET_ROW",
-                  "maxChildLimit": 1
+                  "layoutId": "px3fd39odk",
+                  "isDropTarget": false
                 }
               ],
-              "layoutStyle": {
-                "border": "none",
-                "height": "100%",
-                "padding": "spacing-4",
-                "gap": "spacing-4"
-              },
-              "isDropTarget": true,
               "isPermanent": true,
               "childTemplate": {
-                "insertChild": true,
-                "isDropTarget": false,
-                "isPermanent": false,
                 "layout": [],
-                "layoutId": "",
+                "isPermanent": false,
+                "maxChildLimit": 1,
+                "insertChild": true,
                 "layoutType": "WIDGET_ROW",
-                "maxChildLimit": 1
-              }
+                "layoutId": "",
+                "isDropTarget": false
+              },
+              "layoutType": "ALIGNED_LAYOUT_COLUMN",
+              "layoutStyle": {
+                "border": "none",
+                "padding": "spacing-4",
+                "gap": "spacing-4",
+                "height": "100%"
+              },
+              "layoutId": "2zn7qf5vxp",
+              "isDropTarget": true
             }
           ],
           "parentColumnSpace": 1,
