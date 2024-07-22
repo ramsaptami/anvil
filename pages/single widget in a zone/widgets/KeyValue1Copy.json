@@ -1,60 +1,64 @@
 {
-    "needsErrorInfo": false,
-    "mobileBottomRow": 10,
-    "widgetName": "KeyValue1Copy",
-    "displayName": "KeyValue",
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "topRow": 0,
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "autoFocus": false,
-    "type": "WDS_KEY_VALUE_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "isReadOnly": true,
-    "parentColumnSpace": 1,
-    "dynamicTriggerPathList": [],
-    "resetOnSubmit": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "defaultText"},
-        {"key": "label"}
-    ],
-    "labelPosition": "top",
-    "inputType": "TEXT",
-    "isDisabled": false,
-    "key": "fxcolnz98v",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "widgetId": "1i8cqb5wse",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  "animateLoading": true,
+  "autoFocus": false,
+  "bottomRow": 10,
+  "defaultText": "{{Table2.selectedRow.name}}",
+  "displayName": "KeyValue",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
     },
-    "showStepArrows": false,
-    "isVisible": true,
-    "label": "{{Table2.selectedRow.email}}",
-    "version": 2,
-    "parentId": "dwpj72hefm",
-    "tags": [
-        "Suggested",
-        "Inputs"
-    ],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
-    "iconAlign": "left",
-    "defaultText": "{{Table2.selectedRow.name}}"
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isReadOnly": true,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "fxcolnz98v",
+  "label": "{{Table2.selectedRow.email}}",
+  "labelPosition": "top",
+  "leftColumn": 0,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "parentColumnSpace": 1,
+  "parentId": "dwpj72hefm",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "showStepArrows": false,
+  "tags": [
+    "Suggested",
+    "Inputs"
+  ],
+  "topRow": 0,
+  "type": "WDS_KEY_VALUE_WIDGET",
+  "version": 2,
+  "widgetId": "1i8cqb5wse",
+  "widgetName": "KeyValue1Copy"
 }

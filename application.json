@@ -1,4 +1,35 @@
 {
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "ANVIL"
+    },
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "accentColor": "#95aca3",
+      "borderRadius": "20px",
+      "colorMode": "LIGHT",
+      "density": 1.0,
+      "fontFamily": "Rubik",
+      "iconStyle": "FILLED",
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#FFEBFB",
+  "evaluationVersion": 2,
+  "icon": "money",
   "pages": [
     {
       "id": "single widget in a zone",
@@ -13,41 +44,29 @@
       "isDefault": false
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
-  "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "ANVIL"
     },
     "navigationSetting": {
-      "showNavbar": false,
-      "orientation": "top",
-      "navStyle": "stacked",
-      "position": "static",
-      "itemStyle": "text",
       "colorStyle": "theme",
+      "itemStyle": "text",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
       "showSignIn": true
     },
     "themeSetting": {
       "accentColor": "#95aca3",
       "borderRadius": "20px",
-      "sizing": 1.0,
+      "colorMode": "LIGHT",
       "density": 1.0,
       "fontFamily": "Rubik",
-      "colorMode": "LIGHT",
-      "iconStyle": "FILLED"
+      "iconStyle": "FILLED",
+      "sizing": 1.0
     }
-  },
-  "color": "#FFEBFB",
-  "icon": "money",
-  "unpublishedCustomJSLibs": [],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "isManualUpdate": false,
-  "deleted": false
+  }
 }

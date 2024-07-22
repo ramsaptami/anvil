@@ -1,74 +1,88 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "NONE",
-    "mobileBottomRow": 10,
-    "widgetName": "Section21CopyCopy",
-    "isCanvas": true,
-    "dynamicPropertyPathList": [{"key": "elevatedBackground"}],
-    "displayName": "Section",
-    "iconSVG": "/static/media/icon.afdb05da7c51c242808ef4164226f422.svg",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 0,
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "type": "SECTION_WIDGET",
-    "hideCard": true,
-    "mobileRightColumn": 64,
-    "parentColumnSpace": 1,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "elevatedBackground"}],
-    "elevatedBackground": "{{appsmith.store.section}}",
-    "key": "fk5wqofkr0",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "detachFromLayout": false,
-    "thumbnailSVG": "/static/media/thumbnail.9fcf04d4e2afaf2a95869377f96a9660.svg",
-    "widgetId": "yyrfntj70j",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--ads-section-focus",
-        "disableParentSelection": true,
-        "focusColorCSSVar": "--ads-section-selection",
-        "selectionBGCSSVar": "--ads-section-selection",
-        "selectionColorCSSVar": "--ads-section-focus"
-    },
-    "zoneCount": 2,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "07jn9xtbn0",
-    "tags": ["Layout"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "layout": [{
-        "layout": [
-            {
-                "widgetId": "88vg1ldeqy",
-                "alignment": "start",
-                "widgetType": "ZONE_WIDGET"
-            },
-            {
-                "widgetId": "mb9imslhsq",
-                "alignment": "start",
-                "widgetType": "ZONE_WIDGET"
-            }
-        ],
-        "isPermanent": true,
-        "maxChildLimit": 4,
-        "isContainer": true,
-        "layoutType": "SECTION",
-        "layoutStyle": {"border": "none"},
-        "layoutId": "1bn46vyx4e",
-        "isDropTarget": true
-    }],
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
-    "spaceDistributed": {
-        "mb9imslhsq": 6,
-        "88vg1ldeqy": 6
+  "bottomRow": 10,
+  "boxShadow": "NONE",
+  "detachFromLayout": false,
+  "displayName": "Section",
+  "dynamicBindingPathList": [
+    {
+      "key": "elevatedBackground"
     }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "elevatedBackground"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "elevatedBackground": "{{appsmith.store.section}}",
+  "hideCard": true,
+  "iconSVG": "/static/media/icon.afdb05da7c51c242808ef4164226f422.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "fk5wqofkr0",
+  "layout": [
+    {
+      "isContainer": true,
+      "isDropTarget": true,
+      "isPermanent": true,
+      "layout": [
+        {
+          "alignment": "start",
+          "widgetId": "88vg1ldeqy",
+          "widgetType": "ZONE_WIDGET"
+        },
+        {
+          "alignment": "start",
+          "widgetId": "mb9imslhsq",
+          "widgetType": "ZONE_WIDGET"
+        }
+      ],
+      "layoutId": "1bn46vyx4e",
+      "layoutStyle": {
+        "border": "none"
+      },
+      "layoutType": "SECTION",
+      "maxChildLimit": 4
+    }
+  ],
+  "leftColumn": 0,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": true,
+    "focusBGCSSVar": "--ads-section-focus",
+    "focusColorCSSVar": "--ads-section-selection",
+    "selectionBGCSSVar": "--ads-section-selection",
+    "selectionColorCSSVar": "--ads-section-focus"
+  },
+  "parentColumnSpace": 1,
+  "parentId": "07jn9xtbn0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "spaceDistributed": {
+    "88vg1ldeqy": 6,
+    "mb9imslhsq": 6
+  },
+  "tags": [
+    "Layout"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.9fcf04d4e2afaf2a95869377f96a9660.svg",
+  "topRow": 0,
+  "type": "SECTION_WIDGET",
+  "version": 1,
+  "widgetId": "yyrfntj70j",
+  "widgetName": "Section21CopyCopy",
+  "zoneCount": 2
 }

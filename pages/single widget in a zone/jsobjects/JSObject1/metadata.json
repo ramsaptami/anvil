@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "663cb13d9ac8920a5c72ea2a_7e828114-5d36-4b2f-bec0-794e9c9ec0db",
+  "id": "single widget in a zone_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "single widget in a zone",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "single widget in a zone_JSObject1",
-  "deleted": false,
-  "gitSyncId": "663cb13d9ac8920a5c72ea2a_7e828114-5d36-4b2f-bec0-794e9c9ec0db"
+    ]
+  }
 }

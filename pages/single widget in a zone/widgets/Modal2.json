@@ -1,328 +1,378 @@
 {
-    "needsErrorInfo": false,
-    "mobileBottomRow": 10,
-    "widgetName": "Modal2",
-    "dynamicPropertyPathList": [
-        {"key": "onSubmit"},
-        {"key": "onClose"}
-    ],
-    "displayName": "Modal",
-    "iconSVG": "/static/media/icon.47fe8500526372db96cb58a82187ffeb.svg",
-    "onSubmit": "{{showAlert('submit')}}",
-    "searchTags": [
-        "dialog",
-        "popup",
-        "notification"
-    ],
-    "topRow": 0,
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "type": "WDS_MODAL_WIDGET",
-    "title": "................",
-    "showFooter": true,
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "parentColumnSpace": 1,
-    "dynamicTriggerPathList": [
-        {"key": "onSubmit"},
-        {"key": "onClose"}
-    ],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [],
-    "showSubmitButton": true,
-    "submitButtonText": "this is me",
-    "key": "k2ttfbz989",
-    "cancelButtonText": "this is I",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "detachFromLayout": true,
-    "thumbnailSVG": "/static/media/thumbnail.f3003a84ee87877d42d7d40bd96838db.svg",
-    "showHeader": true,
-    "widgetId": "shtzgogex8",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--ads-widget-focus",
-        "disableParentSelection": true,
-        "focusColorCSSVar": "--ads-widget-selection",
-        "selectionBGCSSVar": "--ads-widget-selection",
-        "selectionColorCSSVar": "--ads-widget-focus"
+  "bottomRow": 10,
+  "cancelButtonText": "this is I",
+  "detachFromLayout": true,
+  "displayName": "Modal",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onSubmit"
     },
-    "isVisible": false,
-    "version": 1,
-    "parentId": "0",
-    "tags": ["Layout"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "layout": [{
-        "layout": [
+    {
+      "key": "onClose"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "onClose"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.47fe8500526372db96cb58a82187ffeb.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "k2ttfbz989",
+  "layout": [
+    {
+      "childTemplate": {
+        "insertChild": true,
+        "isDropTarget": false,
+        "isPermanent": false,
+        "layout": [],
+        "layoutId": "",
+        "layoutType": "WIDGET_ROW",
+        "maxChildLimit": 1
+      },
+      "isDropTarget": true,
+      "isPermanent": true,
+      "layout": [
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
             {
-                "layout": [{
-                    "widgetId": "qj3gl96k8z",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "z3vnbimdck",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "w13ihwwkli",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "cg47m72d45",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "ppd8vjf12o",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "83u8rmvpwo",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "4kgyrvw5nf",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "ekcfi9codq",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "9u72icb09v",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "gowrgqtlf8",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "3218phnxlx",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "mzin17ag0v",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "1otr2uovrj",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "jynr1c0qq9",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "m7b5x327nf",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "inkzfqu86x",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "v1xg6zoz1p",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "z1x8uswle6",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "uv61yehp6v",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "9wjanvruhf",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "ifv63jxf8t",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "0cevinbpqv",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "5316xk7gyj",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "6p492j830y",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "ote3chhh3c",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "fmfnb8vx81",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "na83mtlpy3",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "3ljhq7klmw",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "8shvtfesql",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "bz0w7xvule",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "gjzk2yoinn",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "v9323kb1wb",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "7f8ww7b387",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "u69cx107qh",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "22vdk3azfw",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "vodim6g5ce",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "mnvwonftjj",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "zx01a2co3z",
-                "isDropTarget": false
+              "alignment": "start",
+              "widgetId": "qj3gl96k8z",
+              "widgetType": "SECTION_WIDGET"
             }
-        ],
-        "isPermanent": true,
-        "childTemplate": {
-            "layout": [],
-            "isPermanent": false,
-            "maxChildLimit": 1,
-            "insertChild": true,
-            "layoutType": "WIDGET_ROW",
-            "layoutId": "",
-            "isDropTarget": false
+          ],
+          "layoutId": "z3vnbimdck",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
         },
-        "layoutType": "ALIGNED_LAYOUT_COLUMN",
-        "layoutStyle": {
-            "border": "none",
-            "minHeight": "sizing-16",
-            "height": "100%"
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "w13ihwwkli",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "cg47m72d45",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
         },
-        "layoutId": "m2lhl3coid",
-        "isDropTarget": true
-    }],
-    "onClose": "{{showAlert(\"close\")}}",
-    "size": "large",
-    "mobileLeftColumn": 0
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "ppd8vjf12o",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "83u8rmvpwo",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "4kgyrvw5nf",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "ekcfi9codq",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "9u72icb09v",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "gowrgqtlf8",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "3218phnxlx",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "mzin17ag0v",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "1otr2uovrj",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "jynr1c0qq9",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "m7b5x327nf",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "inkzfqu86x",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "v1xg6zoz1p",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "z1x8uswle6",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "uv61yehp6v",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "9wjanvruhf",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "ifv63jxf8t",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "0cevinbpqv",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "5316xk7gyj",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "6p492j830y",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "ote3chhh3c",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "fmfnb8vx81",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "na83mtlpy3",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "3ljhq7klmw",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "8shvtfesql",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "bz0w7xvule",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "gjzk2yoinn",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "v9323kb1wb",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "7f8ww7b387",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "u69cx107qh",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "22vdk3azfw",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "vodim6g5ce",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "mnvwonftjj",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "zx01a2co3z",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        }
+      ],
+      "layoutId": "m2lhl3coid",
+      "layoutStyle": {
+        "border": "none",
+        "height": "100%",
+        "minHeight": "sizing-16"
+      },
+      "layoutType": "ALIGNED_LAYOUT_COLUMN"
+    }
+  ],
+  "leftColumn": 0,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": true,
+    "focusBGCSSVar": "--ads-widget-focus",
+    "focusColorCSSVar": "--ads-widget-selection",
+    "selectionBGCSSVar": "--ads-widget-selection",
+    "selectionColorCSSVar": "--ads-widget-focus"
+  },
+  "onClose": "{{showAlert(\"close\")}}",
+  "onSubmit": "{{showAlert('submit')}}",
+  "parentColumnSpace": 1,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "dialog",
+    "popup",
+    "notification"
+  ],
+  "showFooter": true,
+  "showHeader": true,
+  "showSubmitButton": true,
+  "size": "large",
+  "submitButtonText": "this is me",
+  "tags": [
+    "Layout"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.f3003a84ee87877d42d7d40bd96838db.svg",
+  "title": "................",
+  "topRow": 0,
+  "type": "WDS_MODAL_WIDGET",
+  "version": 1,
+  "widgetId": "shtzgogex8",
+  "widgetName": "Modal2"
 }

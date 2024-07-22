@@ -1,97 +1,99 @@
 {
-    "needsErrorInfo": false,
-    "mobileBottomRow": 10,
-    "widgetName": "ToolbarButtons3",
-    "color": "accent",
-    "isCanvas": false,
-    "displayName": "Toolbar Buttons",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 0,
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "type": "WDS_TOOLBAR_BUTTONS_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "parentColumnSpace": 1,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [],
-    "buttonsList": {
-        "button4": {
-            "widgetId": "",
-            "icon": "trash",
-            "iconPosition": "start",
-            "index": 2,
-            "label": "Delete",
-            "isVisible": true,
-            "isDisabled": false,
-            "id": "button4"
-        },
-        "button2": {
-            "widgetId": "",
-            "icon": "pencil",
-            "iconPosition": "start",
-            "index": 1,
-            "label": "Edit",
-            "isVisible": true,
-            "isDisabled": false,
-            "id": "button2"
-        },
-        "button3": {
-            "widgetId": "",
-            "icon": "copy",
-            "iconPosition": "start",
-            "index": 2,
-            "label": "Copy",
-            "isVisible": true,
-            "isDisabled": false,
-            "id": "button3"
-        },
-        "button1": {
-            "widgetId": "",
-            "icon": "plus",
-            "iconPosition": "start",
-            "index": 0,
-            "label": "Add",
-            "isVisible": true,
-            "isDisabled": false,
-            "id": "button1"
-        },
-        "separator": {
-            "itemType": "SEPARATOR",
-            "widgetId": "",
-            "index": 2,
-            "isVisible": true,
-            "isDisabled": false,
-            "id": "separator",
-            "label": "Separator",
-            "isSeparator": true
-        }
+  "animateLoading": true,
+  "bottomRow": 10,
+  "buttonsList": {
+    "button1": {
+      "icon": "plus",
+      "iconPosition": "start",
+      "id": "button1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Add",
+      "widgetId": ""
     },
-    "variant": "ghost",
-    "isDisabled": false,
-    "key": "g2nnl5opfl",
-    "orientation": "horizontal",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "widgetId": "le6ge8ob8v",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+    "button2": {
+      "icon": "pencil",
+      "iconPosition": "start",
+      "id": "button2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Edit",
+      "widgetId": ""
     },
-    "isVisible": true,
-    "version": 1,
-    "parentId": "moxta5mbqm",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0
+    "button3": {
+      "icon": "copy",
+      "iconPosition": "start",
+      "id": "button3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Copy",
+      "widgetId": ""
+    },
+    "button4": {
+      "icon": "trash",
+      "iconPosition": "start",
+      "id": "button4",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Delete",
+      "widgetId": ""
+    },
+    "separator": {
+      "id": "separator",
+      "index": 2,
+      "isDisabled": false,
+      "isSeparator": true,
+      "isVisible": true,
+      "itemType": "SEPARATOR",
+      "label": "Separator",
+      "widgetId": ""
+    }
+  },
+  "color": "accent",
+  "displayName": "Toolbar Buttons",
+  "dynamicBindingPathList": [],
+  "hideCard": false,
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "g2nnl5opfl",
+  "leftColumn": 0,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "orientation": "horizontal",
+  "parentColumnSpace": 1,
+  "parentId": "moxta5mbqm",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "topRow": 0,
+  "type": "WDS_TOOLBAR_BUTTONS_WIDGET",
+  "variant": "ghost",
+  "version": 1,
+  "widgetId": "le6ge8ob8v",
+  "widgetName": "ToolbarButtons3"
 }

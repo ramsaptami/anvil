@@ -1,72 +1,78 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "NONE",
-    "mobileBottomRow": 10,
-    "widgetName": "Section30",
-    "isCanvas": true,
-    "displayName": "Section",
-    "iconSVG": "/static/media/icon.afdb05da7c51c242808ef4164226f422.svg",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 0,
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "type": "SECTION_WIDGET",
-    "hideCard": true,
-    "mobileRightColumn": 64,
-    "parentColumnSpace": 1,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [],
-    "elevatedBackground": false,
-    "key": "9bmbjy0g7o",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "detachFromLayout": false,
-    "thumbnailSVG": "/static/media/thumbnail.9fcf04d4e2afaf2a95869377f96a9660.svg",
-    "widgetId": "v8y6tl7tzm",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--ads-section-focus",
-        "disableParentSelection": true,
-        "focusColorCSSVar": "--ads-section-selection",
-        "selectionBGCSSVar": "--ads-section-selection",
-        "selectionColorCSSVar": "--ads-section-focus"
-    },
-    "zoneCount": 2,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "tags": ["Layout"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "layout": [{
-        "layout": [
-            {
-                "widgetId": "yvqijsn87q",
-                "alignment": "start",
-                "widgetType": "ZONE_WIDGET"
-            },
-            {
-                "widgetId": "874hzdiasn",
-                "alignment": "start",
-                "widgetType": "ZONE_WIDGET"
-            }
-        ],
-        "isPermanent": true,
-        "maxChildLimit": 4,
-        "isContainer": true,
-        "layoutType": "SECTION",
-        "layoutStyle": {"border": "none"},
-        "layoutId": "nx16epk1pn",
-        "isDropTarget": true
-    }],
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
-    "spaceDistributed": {
-        "874hzdiasn": 6,
-        "yvqijsn87q": 6
+  "bottomRow": 10,
+  "boxShadow": "NONE",
+  "detachFromLayout": false,
+  "displayName": "Section",
+  "dynamicBindingPathList": [],
+  "elevatedBackground": false,
+  "hideCard": true,
+  "iconSVG": "/static/media/icon.afdb05da7c51c242808ef4164226f422.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9bmbjy0g7o",
+  "layout": [
+    {
+      "isContainer": true,
+      "isDropTarget": true,
+      "isPermanent": true,
+      "layout": [
+        {
+          "alignment": "start",
+          "widgetId": "yvqijsn87q",
+          "widgetType": "ZONE_WIDGET"
+        },
+        {
+          "alignment": "start",
+          "widgetId": "874hzdiasn",
+          "widgetType": "ZONE_WIDGET"
+        }
+      ],
+      "layoutId": "nx16epk1pn",
+      "layoutStyle": {
+        "border": "none"
+      },
+      "layoutType": "SECTION",
+      "maxChildLimit": 4
     }
+  ],
+  "leftColumn": 0,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": true,
+    "focusBGCSSVar": "--ads-section-focus",
+    "focusColorCSSVar": "--ads-section-selection",
+    "selectionBGCSSVar": "--ads-section-selection",
+    "selectionColorCSSVar": "--ads-section-focus"
+  },
+  "parentColumnSpace": 1,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "spaceDistributed": {
+    "874hzdiasn": 6,
+    "yvqijsn87q": 6
+  },
+  "tags": [
+    "Layout"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.9fcf04d4e2afaf2a95869377f96a9660.svg",
+  "topRow": 0,
+  "type": "SECTION_WIDGET",
+  "version": 1,
+  "widgetId": "v8y6tl7tzm",
+  "widgetName": "Section30",
+  "zoneCount": 2
 }

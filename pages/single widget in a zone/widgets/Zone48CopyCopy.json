@@ -1,76 +1,96 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 10,
-    "widgetName": "Zone48CopyCopy",
-    "flexGrow": 6,
-    "isCanvas": true,
-    "dynamicPropertyPathList": [{"key": "elevatedBackground"}],
-    "displayName": "Zone",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 0,
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "type": "ZONE_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "parentColumnSpace": 1,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "elevatedBackground"}
-    ],
-    "elevatedBackground": "{{appsmith.store.zone}}",
-    "flexVerticalAlignment": "stretch",
-    "key": "plpj19xi9d",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "detachFromLayout": false,
-    "widgetId": "x6bs8wk8ir",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-zone-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-zone-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-zone-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-zone-focus"
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "detachFromLayout": false,
+  "displayName": "Zone",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
     },
-    "isVisible": true,
-    "version": 1,
-    "parentId": "xe7k66r82j",
-    "tags": ["Layout"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "layout": [{
-        "layout": [{
-            "layout": [{
-                "widgetId": "q3xx8bo0ej",
-                "alignment": "start",
-                "widgetType": "WDS_TOOLBAR_BUTTONS_WIDGET"
-            }],
-            "allowedWidgetTypes": ["SMALL_WIDGETS"],
-            "maxChildLimit": 0,
-            "insertChild": true,
-            "layoutType": "ALIGNED_WIDGET_ROW",
-            "layoutId": "vxa65hshbi"
-        }],
-        "isPermanent": true,
-        "isContainer": true,
-        "layoutType": "ZONE",
-        "layoutStyle": {
-            "border": "none",
-            "height": "100%"
-        },
-        "layoutId": "ymlqmoqn79",
-        "isDropTarget": true
-    }],
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "elevatedBackground"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "elevatedBackground"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "elevatedBackground": "{{appsmith.store.zone}}",
+  "flexGrow": 6,
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "plpj19xi9d",
+  "layout": [
+    {
+      "isContainer": true,
+      "isDropTarget": true,
+      "isPermanent": true,
+      "layout": [
+        {
+          "allowedWidgetTypes": [
+            "SMALL_WIDGETS"
+          ],
+          "insertChild": true,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "q3xx8bo0ej",
+              "widgetType": "WDS_TOOLBAR_BUTTONS_WIDGET"
+            }
+          ],
+          "layoutId": "vxa65hshbi",
+          "layoutType": "ALIGNED_WIDGET_ROW",
+          "maxChildLimit": 0
+        }
+      ],
+      "layoutId": "ymlqmoqn79",
+      "layoutStyle": {
+        "border": "none",
+        "height": "100%"
+      },
+      "layoutType": "ZONE"
+    }
+  ],
+  "leftColumn": 0,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-zone-focus",
+    "focusColorCSSVar": "--on-canvas-ui-zone-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-zone-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-zone-focus"
+  },
+  "parentColumnSpace": 1,
+  "parentId": "xe7k66r82j",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "tags": [
+    "Layout"
+  ],
+  "topRow": 0,
+  "type": "ZONE_WIDGET",
+  "version": 1,
+  "widgetId": "x6bs8wk8ir",
+  "widgetName": "Zone48CopyCopy"
 }

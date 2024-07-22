@@ -1,69 +1,73 @@
 {
-    "needsErrorInfo": false,
-    "mobileBottomRow": 10,
-    "widgetName": "Modal4Copy",
-    "displayName": "Modal",
-    "searchTags": [
-        "dialog",
-        "popup",
-        "notification"
-    ],
-    "topRow": 0,
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "type": "WDS_MODAL_WIDGET",
-    "title": "Modal Title",
-    "showFooter": true,
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "parentColumnSpace": 1,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [],
-    "children": [],
-    "showSubmitButton": true,
-    "submitButtonText": "Save Changes",
-    "key": "webzbhhpct",
-    "cancelButtonText": "Cancel",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "detachFromLayout": true,
-    "showHeader": true,
-    "widgetId": "03ajwebrd0",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": true,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
-    },
-    "isVisible": false,
-    "version": 1,
-    "parentId": "0",
-    "tags": ["Layout"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "layout": [{
+  "bottomRow": 10,
+  "cancelButtonText": "Cancel",
+  "children": [],
+  "detachFromLayout": true,
+  "displayName": "Modal",
+  "dynamicBindingPathList": [],
+  "hideCard": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "webzbhhpct",
+  "layout": [
+    {
+      "childTemplate": {
+        "insertChild": true,
+        "isDropTarget": false,
+        "isPermanent": false,
         "layout": [],
-        "isPermanent": true,
-        "childTemplate": {
-            "layout": [],
-            "isPermanent": false,
-            "maxChildLimit": 1,
-            "insertChild": true,
-            "layoutType": "WIDGET_ROW",
-            "layoutId": "",
-            "isDropTarget": false
-        },
-        "layoutType": "ALIGNED_LAYOUT_COLUMN",
-        "layoutStyle": {
-            "border": "none",
-            "minHeight": "sizing-16",
-            "height": "100%"
-        },
-        "layoutId": "71u5gwmwrr",
-        "isDropTarget": true
-    }],
-    "size": "medium",
-    "mobileLeftColumn": 0
+        "layoutId": "",
+        "layoutType": "WIDGET_ROW",
+        "maxChildLimit": 1
+      },
+      "isDropTarget": true,
+      "isPermanent": true,
+      "layout": [],
+      "layoutId": "71u5gwmwrr",
+      "layoutStyle": {
+        "border": "none",
+        "height": "100%",
+        "minHeight": "sizing-16"
+      },
+      "layoutType": "ALIGNED_LAYOUT_COLUMN"
+    }
+  ],
+  "leftColumn": 0,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": true,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "parentColumnSpace": 1,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "dialog",
+    "popup",
+    "notification"
+  ],
+  "showFooter": true,
+  "showHeader": true,
+  "showSubmitButton": true,
+  "size": "medium",
+  "submitButtonText": "Save Changes",
+  "tags": [
+    "Layout"
+  ],
+  "title": "Modal Title",
+  "topRow": 0,
+  "type": "WDS_MODAL_WIDGET",
+  "version": 1,
+  "widgetId": "03ajwebrd0",
+  "widgetName": "Modal4Copy"
 }

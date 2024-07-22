@@ -1,114 +1,138 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 10,
-    "widgetName": "Zone1",
-    "flexGrow": 12,
-    "isCanvas": true,
-    "displayName": "Zone",
-    "iconSVG": "/static/media/icon.b4f5f9eb27fc2bb537b53187836aea6c.svg",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 0,
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "type": "ZONE_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "parentColumnSpace": 1,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
-    "elevatedBackground": false,
-    "flexVerticalAlignment": "stretch",
-    "key": "oebuyj3t52",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "detachFromLayout": false,
-    "thumbnailSVG": "/static/media/thumbnail.652c8d71e463682539413758139620f1.svg",
-    "widgetId": "uf8jt4nnoj",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--ads-zone-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--ads-zone-selection",
-        "selectionBGCSSVar": "--ads-zone-selection",
-        "selectionColorCSSVar": "--ads-zone-focus"
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "detachFromLayout": false,
+  "displayName": "Zone",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
     },
-    "isVisible": true,
-    "version": 1,
-    "parentId": "37tt1yefyt",
-    "tags": ["Layout"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "layout": [{
-        "layout": [
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "elevatedBackground": false,
+  "flexGrow": 12,
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.b4f5f9eb27fc2bb537b53187836aea6c.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "oebuyj3t52",
+  "layout": [
+    {
+      "isContainer": true,
+      "isDropTarget": true,
+      "isPermanent": true,
+      "layout": [
+        {
+          "allowedWidgetTypes": [
+            "SMALL_WIDGETS"
+          ],
+          "insertChild": true,
+          "layout": [
             {
-                "layout": [{
-                    "widgetId": "e8vercryeg",
-                    "alignment": "start",
-                    "widgetType": "WDS_HEADING_WIDGET"
-                }],
-                "allowedWidgetTypes": ["SMALL_WIDGETS"],
-                "maxChildLimit": 0,
-                "insertChild": true,
-                "layoutType": "ALIGNED_WIDGET_ROW",
-                "layoutId": "ebxlbtoec3"
-            },
-            {
-                "layout": [{
-                    "widgetId": "v42p7954to",
-                    "alignment": "start",
-                    "widgetType": "WDS_HEADING_WIDGET"
-                }],
-                "allowedWidgetTypes": ["SMALL_WIDGETS"],
-                "maxChildLimit": 0,
-                "insertChild": true,
-                "layoutType": "ALIGNED_WIDGET_ROW",
-                "layoutId": "dshmnkn253"
-            },
-            {
-                "layout": [{
-                    "widgetId": "u9x2ivoqlb",
-                    "alignment": "start",
-                    "widgetType": "WDS_HEADING_WIDGET"
-                }],
-                "allowedWidgetTypes": ["SMALL_WIDGETS"],
-                "maxChildLimit": 0,
-                "insertChild": true,
-                "layoutType": "ALIGNED_WIDGET_ROW",
-                "layoutId": "kumphzdi8r"
-            },
-            {
-                "layout": [{
-                    "widgetId": "fwz6f2bes6",
-                    "alignment": "start",
-                    "widgetType": "WDS_HEADING_WIDGET"
-                }],
-                "allowedWidgetTypes": ["SMALL_WIDGETS"],
-                "maxChildLimit": 0,
-                "insertChild": true,
-                "layoutType": "ALIGNED_WIDGET_ROW",
-                "layoutId": "z59hs7kfc8"
+              "alignment": "start",
+              "widgetId": "e8vercryeg",
+              "widgetType": "WDS_HEADING_WIDGET"
             }
-        ],
-        "isPermanent": true,
-        "isContainer": true,
-        "layoutType": "ZONE",
-        "layoutStyle": {
-            "border": "none",
-            "height": "100%"
+          ],
+          "layoutId": "ebxlbtoec3",
+          "layoutType": "ALIGNED_WIDGET_ROW",
+          "maxChildLimit": 0
         },
-        "layoutId": "tb00ygwzot",
-        "isDropTarget": true
-    }],
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0
+        {
+          "allowedWidgetTypes": [
+            "SMALL_WIDGETS"
+          ],
+          "insertChild": true,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "v42p7954to",
+              "widgetType": "WDS_HEADING_WIDGET"
+            }
+          ],
+          "layoutId": "dshmnkn253",
+          "layoutType": "ALIGNED_WIDGET_ROW",
+          "maxChildLimit": 0
+        },
+        {
+          "allowedWidgetTypes": [
+            "SMALL_WIDGETS"
+          ],
+          "insertChild": true,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "u9x2ivoqlb",
+              "widgetType": "WDS_HEADING_WIDGET"
+            }
+          ],
+          "layoutId": "kumphzdi8r",
+          "layoutType": "ALIGNED_WIDGET_ROW",
+          "maxChildLimit": 0
+        },
+        {
+          "allowedWidgetTypes": [
+            "SMALL_WIDGETS"
+          ],
+          "insertChild": true,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "fwz6f2bes6",
+              "widgetType": "WDS_HEADING_WIDGET"
+            }
+          ],
+          "layoutId": "z59hs7kfc8",
+          "layoutType": "ALIGNED_WIDGET_ROW",
+          "maxChildLimit": 0
+        }
+      ],
+      "layoutId": "tb00ygwzot",
+      "layoutStyle": {
+        "border": "none",
+        "height": "100%"
+      },
+      "layoutType": "ZONE"
+    }
+  ],
+  "leftColumn": 0,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--ads-zone-focus",
+    "focusColorCSSVar": "--ads-zone-selection",
+    "selectionBGCSSVar": "--ads-zone-selection",
+    "selectionColorCSSVar": "--ads-zone-focus"
+  },
+  "parentColumnSpace": 1,
+  "parentId": "37tt1yefyt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "tags": [
+    "Layout"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.652c8d71e463682539413758139620f1.svg",
+  "topRow": 0,
+  "type": "ZONE_WIDGET",
+  "version": 1,
+  "widgetId": "uf8jt4nnoj",
+  "widgetName": "Zone1"
 }

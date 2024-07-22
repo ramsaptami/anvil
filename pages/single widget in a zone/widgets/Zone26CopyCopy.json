@@ -1,75 +1,89 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 10,
-    "widgetName": "Zone26CopyCopy",
-    "flexGrow": 6,
-    "isCanvas": true,
-    "displayName": "Zone",
-    "iconSVG": "/static/media/icon.b4f5f9eb27fc2bb537b53187836aea6c.svg",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 0,
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "type": "ZONE_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "parentColumnSpace": 1,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
-    "elevatedBackground": true,
-    "flexVerticalAlignment": "stretch",
-    "key": "8g3htehmom",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "detachFromLayout": false,
-    "thumbnailSVG": "/static/media/thumbnail.652c8d71e463682539413758139620f1.svg",
-    "widgetId": "t0928at9an",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--ads-zone-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--ads-zone-selection",
-        "selectionBGCSSVar": "--ads-zone-selection",
-        "selectionColorCSSVar": "--ads-zone-focus"
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "detachFromLayout": false,
+  "displayName": "Zone",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
     },
-    "isVisible": true,
-    "version": 1,
-    "parentId": "xe7k66r82j",
-    "tags": ["Layout"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "layout": [{
-        "layout": [{
-            "layout": [{
-                "widgetId": "bsyh40dsi4",
-                "alignment": "start",
-                "widgetType": "WDS_RADIO_GROUP_WIDGET"
-            }],
-            "allowedWidgetTypes": ["SMALL_WIDGETS"],
-            "maxChildLimit": 0,
-            "insertChild": true,
-            "layoutType": "ALIGNED_WIDGET_ROW",
-            "layoutId": "81feshw1ao"
-        }],
-        "isPermanent": true,
-        "isContainer": true,
-        "layoutType": "ZONE",
-        "layoutStyle": {
-            "border": "none",
-            "height": "100%"
-        },
-        "layoutId": "m0kcvg9p49",
-        "isDropTarget": true
-    }],
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "elevatedBackground": true,
+  "flexGrow": 6,
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.b4f5f9eb27fc2bb537b53187836aea6c.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "8g3htehmom",
+  "layout": [
+    {
+      "isContainer": true,
+      "isDropTarget": true,
+      "isPermanent": true,
+      "layout": [
+        {
+          "allowedWidgetTypes": [
+            "SMALL_WIDGETS"
+          ],
+          "insertChild": true,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "bsyh40dsi4",
+              "widgetType": "WDS_RADIO_GROUP_WIDGET"
+            }
+          ],
+          "layoutId": "81feshw1ao",
+          "layoutType": "ALIGNED_WIDGET_ROW",
+          "maxChildLimit": 0
+        }
+      ],
+      "layoutId": "m0kcvg9p49",
+      "layoutStyle": {
+        "border": "none",
+        "height": "100%"
+      },
+      "layoutType": "ZONE"
+    }
+  ],
+  "leftColumn": 0,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--ads-zone-focus",
+    "focusColorCSSVar": "--ads-zone-selection",
+    "selectionBGCSSVar": "--ads-zone-selection",
+    "selectionColorCSSVar": "--ads-zone-focus"
+  },
+  "parentColumnSpace": 1,
+  "parentId": "xe7k66r82j",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "tags": [
+    "Layout"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.652c8d71e463682539413758139620f1.svg",
+  "topRow": 0,
+  "type": "ZONE_WIDGET",
+  "version": 1,
+  "widgetId": "t0928at9an",
+  "widgetName": "Zone26CopyCopy"
 }

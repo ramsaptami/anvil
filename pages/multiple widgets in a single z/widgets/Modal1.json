@@ -1,303 +1,343 @@
 {
-    "needsErrorInfo": false,
-    "mobileBottomRow": 10,
-    "widgetName": "Modal1",
-    "displayName": "Modal",
-    "searchTags": [
-        "dialog",
-        "popup",
-        "notification"
-    ],
-    "topRow": 0,
-    "bottomRow": 10,
-    "parentRowSpace": 10,
-    "type": "WDS_MODAL_WIDGET",
-    "title": "Modal Title",
-    "showFooter": true,
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "parentColumnSpace": 1,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [],
-    "showSubmitButton": true,
-    "submitButtonText": "Save Changes",
-    "key": "1obwaqf9kf",
-    "cancelButtonText": "Cancel",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "detachFromLayout": true,
-    "showHeader": true,
-    "widgetId": "cnpv0b6h8n",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": true,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
-    },
-    "isVisible": false,
-    "version": 1,
-    "parentId": "0",
-    "tags": ["Layout"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "layout": [{
-        "layout": [
+  "bottomRow": 10,
+  "cancelButtonText": "Cancel",
+  "detachFromLayout": true,
+  "displayName": "Modal",
+  "dynamicBindingPathList": [],
+  "hideCard": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "1obwaqf9kf",
+  "layout": [
+    {
+      "childTemplate": {
+        "insertChild": true,
+        "isDropTarget": false,
+        "isPermanent": false,
+        "layout": [],
+        "layoutId": "",
+        "layoutType": "WIDGET_ROW",
+        "maxChildLimit": 1
+      },
+      "isDropTarget": true,
+      "isPermanent": true,
+      "layout": [
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
             {
-                "layout": [{
-                    "widgetId": "0bvlfjrn8o",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "v2cxpeopbu",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "awh9c7yprv",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "u80ik8r7g2",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "386hb8lpg9",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "3qdymaorwo",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "0cg8kuc7k1",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "ff820ea16i",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "oqn9twz6ly",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "mqd7cl91m2",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "22w5oysnis",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "i8fsis9n02",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "auqk19s9pd",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "xzy55sao2v",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "gf057k2xmy",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "kuuny7sc9n",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "lvcxbrfim7",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "bs2olz6fj0",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "ieszfo2j5o",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "2lgns0v6ca",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "7a8vww0vlz",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "3p2c89x2df",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "ecu1thnz89",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "73wy260qw7",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "mfuk4ev7y4",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "dmazi7k4us",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "tsglxtztl7",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "4ilyeu5dvd",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "1xuaniv00b",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "xlya5tmyxr",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "wcxw6k9nj8",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "v4pnbs7mnm",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "8rxhdxv9d1",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "c8ytnzfy8c",
-                "isDropTarget": false
-            },
-            {
-                "layout": [{
-                    "widgetId": "ofx4zbelgc",
-                    "alignment": "start",
-                    "widgetType": "SECTION_WIDGET"
-                }],
-                "isPermanent": false,
-                "maxChildLimit": 1,
-                "insertChild": true,
-                "layoutType": "WIDGET_ROW",
-                "layoutId": "kawneu3kxz",
-                "isDropTarget": false
+              "alignment": "start",
+              "widgetId": "0bvlfjrn8o",
+              "widgetType": "SECTION_WIDGET"
             }
-        ],
-        "isPermanent": true,
-        "childTemplate": {
-            "layout": [],
-            "isPermanent": false,
-            "maxChildLimit": 1,
-            "insertChild": true,
-            "layoutType": "WIDGET_ROW",
-            "layoutId": "",
-            "isDropTarget": false
+          ],
+          "layoutId": "v2cxpeopbu",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
         },
-        "layoutType": "ALIGNED_LAYOUT_COLUMN",
-        "layoutStyle": {
-            "border": "none",
-            "minHeight": "sizing-16",
-            "height": "100%"
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "awh9c7yprv",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "u80ik8r7g2",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
         },
-        "layoutId": "sv19fnuy88",
-        "isDropTarget": true
-    }],
-    "size": "medium",
-    "mobileLeftColumn": 0
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "386hb8lpg9",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "3qdymaorwo",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "0cg8kuc7k1",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "ff820ea16i",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "oqn9twz6ly",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "mqd7cl91m2",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "22w5oysnis",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "i8fsis9n02",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "auqk19s9pd",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "xzy55sao2v",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "gf057k2xmy",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "kuuny7sc9n",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "lvcxbrfim7",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "bs2olz6fj0",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "ieszfo2j5o",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "2lgns0v6ca",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "7a8vww0vlz",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "3p2c89x2df",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "ecu1thnz89",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "73wy260qw7",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "mfuk4ev7y4",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "dmazi7k4us",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "tsglxtztl7",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "4ilyeu5dvd",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "1xuaniv00b",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "xlya5tmyxr",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "wcxw6k9nj8",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "v4pnbs7mnm",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "8rxhdxv9d1",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "c8ytnzfy8c",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        },
+        {
+          "insertChild": true,
+          "isDropTarget": false,
+          "isPermanent": false,
+          "layout": [
+            {
+              "alignment": "start",
+              "widgetId": "ofx4zbelgc",
+              "widgetType": "SECTION_WIDGET"
+            }
+          ],
+          "layoutId": "kawneu3kxz",
+          "layoutType": "WIDGET_ROW",
+          "maxChildLimit": 1
+        }
+      ],
+      "layoutId": "sv19fnuy88",
+      "layoutStyle": {
+        "border": "none",
+        "height": "100%",
+        "minHeight": "sizing-16"
+      },
+      "layoutType": "ALIGNED_LAYOUT_COLUMN"
+    }
+  ],
+  "leftColumn": 0,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": true,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "parentColumnSpace": 1,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "dialog",
+    "popup",
+    "notification"
+  ],
+  "showFooter": true,
+  "showHeader": true,
+  "showSubmitButton": true,
+  "size": "medium",
+  "submitButtonText": "Save Changes",
+  "tags": [
+    "Layout"
+  ],
+  "title": "Modal Title",
+  "topRow": 0,
+  "type": "WDS_MODAL_WIDGET",
+  "version": 1,
+  "widgetId": "cnpv0b6h8n",
+  "widgetName": "Modal1"
 }
